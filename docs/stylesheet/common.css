@@ -72,3 +72,38 @@ img {
 .hamburger__line::after {
   top: 10px;
 }
+
+.global-nav {
+  display: none;
+}
+
+.global-nav__list {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.global-nav__item {
+  font-size: 20px;
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+
+.global-nav__item:first-child {
+  margin-left: 0;
+  border-bottom: 2px solid blueviolet;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 0 20px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .global-nav {
+    display: block;
+  }
+}
