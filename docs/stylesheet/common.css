@@ -107,3 +107,28 @@ img {
     display: block;
   }
 }
+
+/* footer */
+.footer {
+  background-color: #333;
+  padding: 0 20px;
+}
+
+.site-nav__item a {
+  display: block;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: white;
+  border-bottom: 1px solid gray;
+  padding: 20px 0;
+}
+
+.site-nav__item:first-child {
+  margin-top: 0;
+}
+
+.copyright {
+  padding: 40px 0;
+  font-size: 16px;
+  color: white;
+}
