@@ -22,3 +22,64 @@
   color: white;
   margin-top: 20px;
 }
+
+/* カテゴリー */
+
+.category-list {
+  background-color: white;
+  padding: 40px 20px;
+}
+
+.category {
+  max-width: 1120px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.category:first-child {
+  margin-top: 0px;
+}
+
+.category__title {
+  font-size: 30px;
+  border-left: 3px solid blueviolet;
+  padding-left: 10px;
+}
+
+.category__body {
+  margin-top: 20px;
+}
+
+.card-list__item {
+  margin-top: 60px;
+}
+
+.card-list__item:first-child {
+  margin-top: 0;
+}
+
+.card__title {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.card__text {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.card__meta {
+  margin-top: 10px;
+  display: flex;
+  align-items: baseline;
+}
+
+.card__meta-item {
+  margin-left: 10px;
+  color: gray;
+  font-size: 16px;
+}
+
+.card__meta-item:first-child {
+  margin-left: 0;
+}
