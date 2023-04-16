@@ -41,7 +41,34 @@ img {
 }
 
 .hamburger {
+  position: relative;
   width: 60px;
   height: 60px;
   background-color: blueviolet;
+}
+
+.hamburger__line {
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  top: calc((60px - 2px) / 2);
+  left: calc((60px - 30px) / 2);
+}
+
+.hamburger__line::before,
+.hamburger__line::after {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.hamburger__line::before {
+  top: -10px;
+}
+
+.hamburger__line::after {
+  top: 10px;
 }
